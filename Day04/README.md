@@ -159,10 +159,3 @@ For storing row and column counts.
 
 ---
 
-## 🎯 Takeaway
-
-Instead of checking each row and column repeatedly (which would increase complexity), we **precompute row and column counts**, making the solution efficient with **linear traversal of the matrix**.
-
----
-
-⭐ If you found this helpful, consider starring the repository!
