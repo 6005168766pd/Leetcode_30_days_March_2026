@@ -1,4 +1,4 @@
-# 🚀 Reverse Submatrix (LeetCode 3643)
+# 🚀 Flip Square Submatrix Vertically (LeetCode 3643)
 
 ## 📌 Problem Summary
 
