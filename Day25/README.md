@@ -1,5 +1,5 @@
-🧩 Equal Sum Grid Partition I : Leetcode 3546
-📌 Problem Statement
+ Equal Sum Grid Partition I : Leetcode 3546
+ Problem Statement
 
 Given a 2D integer grid, determine whether it is possible to partition the grid into two parts such that the sum of elements in both parts is equal.
 
