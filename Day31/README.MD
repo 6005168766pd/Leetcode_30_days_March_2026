@@ -1,6 +1,6 @@
 # Leetcode 3474: Lexicographically Smallest Generated String
 
-## 📌 Problem Statement
+##  Problem Statement
 
 You are given two strings:
 
@@ -16,7 +16,7 @@ If it is possible to construct such a string, return it. Otherwise, return an em
 
 ---
 
-## 🧠 Intuition
+##  Intuition
 
 We build the result string step by step:
 
