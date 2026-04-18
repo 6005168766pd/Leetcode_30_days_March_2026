@@ -1,10 +1,10 @@
-# 📌 Maximum Non-Negative Product in a Matrix
+#  Maximum Non-Negative Product in a Matrix
 
-## 🧩 Problem Statement
+##  Problem Statement
 
 Given a `m x n` grid filled with integers, find the **maximum non-negative product** of a path from the **top-left** to the **bottom-right** corner.
 
-### ✅ Allowed Moves:
+###  Allowed Moves:
 - Right ➡️
 - Down ⬇️
 
