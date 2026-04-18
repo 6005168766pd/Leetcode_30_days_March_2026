@@ -1,12 +1,12 @@
 # 📌 LeetCode 3212 – Count Submatrices With Equal Frequency of X and Y
 
-## 🧩 Problem Statement
+##  Problem Statement
 
 Given a 2D grid consisting of characters `'X'` and `'Y'`, your task is to count the number of submatrices where the number of `'X'` and `'Y'` are equal.
 
 ---
 
-## 💡 Intuition
+##  Intuition
 
 To solve this problem efficiently, we use the concept of **2D Prefix Sum**.
 
