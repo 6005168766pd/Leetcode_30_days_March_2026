@@ -1,5 +1,5 @@
 1784. Check if Binary String Has at Most One Segment of Ones
-🧩 Problem Statement
+ Problem Statement
 
 Given a binary string s containing only '0' and '1', return true if the string contains at most one contiguous segment of ones.
 
@@ -7,7 +7,7 @@ Otherwise, return false.
 
 A segment of ones means a continuous group of '1' characters.
 
-📌 Examples
+ Examples
 Example 1
 Input: s = "1001"
 Output: false
@@ -29,7 +29,7 @@ Output: true
 Explanation:
 All '1' characters form one continuous segment.
 
-🔍 Key Observation
+ Key Observation
 
 If the string contains more than one segment of ones, it must contain the pattern:
 
@@ -69,7 +69,7 @@ for each character in string:
         segment++
 
 return segment <= 1
-💻 C++ Implementation
+ C++ Implementation
 class Solution {
 public:
     bool checkOnesSegment(string s) {
@@ -87,7 +87,7 @@ Space	O(1)
 
 We simply traverse the string once.
 
-🧠 Key Insight
+ Key Insight
 
 If the string ever transitions from:
 
