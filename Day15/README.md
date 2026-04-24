@@ -1,6 +1,6 @@
 # LeetCode 1622 — Fancy Sequence
 
-## 🧩 Problem Overview
+##  Problem Overview
 
 Design a data structure that supports the following operations on a sequence of integers:
 
