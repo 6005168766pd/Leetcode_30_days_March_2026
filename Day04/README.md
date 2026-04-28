@@ -1,6 +1,6 @@
 # Special Positions in a Binary Matrix
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given an `m x n` binary matrix `mat`, return the number of **special positions** in the matrix.
 
