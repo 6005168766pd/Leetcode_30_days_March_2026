@@ -20,7 +20,7 @@ Bring that row up using adjacent swaps.
 Count swaps.
 If no such row exists → return -1.
 
-📊 Example
+ Example
 Input
 grid = [
  [0,0,1],
