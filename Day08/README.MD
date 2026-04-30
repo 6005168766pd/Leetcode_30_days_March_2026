@@ -1,5 +1,5 @@
 1980. Find Unique Binary String
-🧩 Problem Statement
+ Problem Statement
 
 Given an array of n unique binary strings nums, where each string has length n, return a binary string of length n that does not appear in nums. If multiple answers exist, return any of them.
 
@@ -20,7 +20,7 @@ nums[i] contains only '0' or '1'
 
 All strings in nums are unique
 
-💡 Approach (Cantor’s Diagonalization)
+ Approach (Cantor’s Diagonalization)
 
 The most optimal way to solve this problem is using Cantor’s Diagonal Trick.
 
@@ -44,14 +44,14 @@ Return the constructed string.
 
 This guarantees the resulting string cannot exist in the given list.
 
-⚙️ Algorithm
+ Algorithm
 for i from 0 to n-1
     if nums[i][i] == '0'
         result += '1'
     else
         result += '0'
 return result
-💻 C++ Implementation
+ C++ Implementation
 class Solution {
 public:
     string findDifferentBinaryString(vector<string>& nums) {
