@@ -1,5 +1,5 @@
 1784. Check if Binary String Has at Most One Segment of Ones
-🧩 Problem Statement
+ Problem Statement
 
 Given a binary string s containing only '0' and '1', return true if the string contains at most one contiguous segment of ones.
 
@@ -7,7 +7,7 @@ Otherwise, return false.
 
 A segment of ones means a continuous group of '1' characters.
 
-📌 Examples
+ Examples
 Example 1
 Input: s = "1001"
 Output: false
