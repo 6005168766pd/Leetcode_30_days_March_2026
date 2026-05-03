@@ -1,6 +1,6 @@
 # LeetCode 1878 — Get Biggest Three Rhombus Sums in a Grid
 
-## 🧩 Problem Overview
+##  Problem Overview
 
 You are given an `m x n` integer matrix `grid`.
 A **rhombus sum** is defined as the sum of the numbers that lie on the **border of a rhombus shape** in the grid.
@@ -11,7 +11,7 @@ If fewer than three distinct sums exist, return all of them.
 
 ---
 
-# 💡 Intuition
+#  Intuition
 
 A rhombus in the grid is defined by:
 
