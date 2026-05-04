@@ -1,6 +1,6 @@
-# 🧩 Construct String from LCP Matrix
+#  Construct String from LCP Matrix
 
-## 📌 Problem Overview
+##  Problem Overview
 
 You are given an `n x n` matrix `lcp`, where:
 
@@ -11,11 +11,11 @@ You are given an `n x n` matrix `lcp`, where:
 
 Your task is to **reconstruct the original string** using only lowercase English letters (`'a'` to `'z'`).
 
-👉 If it is impossible to construct such a string, return an empty string `""`.
+ If it is impossible to construct such a string, return an empty string `""`.
 
 ---
 
-## 🧠 Key Observations
+##  Key Observations
 
 ### 1. Meaning of LCP
 
@@ -43,7 +43,7 @@ lcp[i][j] = 0
 
 ---
 
-## ⚙️ Approach
+## Approach
 
 ### Step 1: Initialize Result String
 
