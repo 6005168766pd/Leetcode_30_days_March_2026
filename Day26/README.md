@@ -1,6 +1,6 @@
-# 🧩 Partition Grid with One Removal (LeetCode)
+#  Partition Grid with One Removal (LeetCode)
 
-## 📌 Problem Overview
+##  Problem Overview
 
 Given a 2D grid of integers, the task is to determine whether it is possible to partition the grid into two parts (using a horizontal or vertical cut) such that:
 
@@ -10,9 +10,9 @@ Given a 2D grid of integers, the task is to determine whether it is possible to 
 
 ---
 
-## 🎯 Approach
+##  Approach
 
-### 🔹 Key Idea
+### Key Idea
 
 * Compute the **total sum** of the grid
 * Try all possible:
@@ -34,8 +34,8 @@ At each cut:
 
 At every cut:
 
-1. ✅ If `topSum == bottomSum` → return `true`
-2. ✅ Else compute:
+1.  If `topSum == bottomSum` → return `true`
+2.  Else compute:
 
    ```cpp
    diff = abs(topSum - bottomSum)
@@ -58,7 +58,7 @@ At every cut:
 
 ---
 
-## 💻 Implementation
+##  Implementation
 
 ```cpp
 class Solution {
@@ -127,7 +127,7 @@ public:
 
 ---
 
-## ⏱️ Complexity Analysis
+##  Complexity Analysis
 
 | Type  | Complexity                 |
 | ----- | -------------------------- |
@@ -136,17 +136,17 @@ public:
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 * Prefix sum (top accumulation) helps avoid recomputation
 * Using `set` enables quick lookup for required element removal
 * Reversing + transposing avoids writing duplicate logic
 
 ---
-## ✅ Conclusion
+##  Conclusion
 
 This approach efficiently checks whether a grid can be partitioned into two equal-sum parts with at most one removal. It leverages prefix sums, set-based lookup, and matrix transformations for optimal performance.
 
 ---
 
-⭐ *If you found this helpful, consider giving a star to the repo!*
+ *If you found this helpful, consider giving a star to the repo!*
