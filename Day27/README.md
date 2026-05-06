@@ -1,6 +1,6 @@
-# 🚀 LeetCode 2946 - Matrix Similarity After Cyclic Shifts
+#  LeetCode 2946 - Matrix Similarity After Cyclic Shifts
 
-## 🧩 Problem Statement
+##  Problem Statement
 
 Given a 2D integer matrix `mat` of size `m x n` and an integer `k`, determine whether the matrix remains the same after performing the following operation:
 
