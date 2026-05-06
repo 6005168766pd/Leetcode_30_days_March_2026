@@ -19,7 +19,7 @@ To solve this problem efficiently, we use the concept of **2D Prefix Sum**.
   * Total number of `'X'` from `(0,0)` to `(i,j)`
   * Total number of `'Y'` from `(0,0)` to `(i,j)`
 
-👉 If at any point:
+ If at any point:
 
 ```
 cumSumX[i][j] == cumSumY[i][j]
@@ -29,7 +29,7 @@ Then the submatrix from `(0,0)` to `(i,j)` is valid.
 
 ---
 
-## ⚙️ Approach
+##  Approach
 
 1. Initialize two 2D arrays:
 
@@ -51,7 +51,7 @@ Then the submatrix from `(0,0)` to `(i,j)` is valid.
 
 ---
 
-## 🧮 Prefix Sum Formula
+##  Prefix Sum Formula
 
 For each cell `(i, j)`:
 
@@ -64,7 +64,7 @@ sum[i][j] = current
 
 ---
 
-## ✅ C++ Implementation
+##  C++ Implementation
 
 ```cpp
 class Solution {
