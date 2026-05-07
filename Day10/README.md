@@ -20,7 +20,7 @@ Since the result may be very large, return it **modulo (10^9 + 7)**.
 
 ---
 
-# 🧠 Intuition
+#  Intuition
 
 We need to construct arrays using:
 
@@ -69,7 +69,7 @@ while ensuring we never exceed the consecutive limit.
 ---
    
 
-# ⏱ Complexity Analysis
+#  Complexity Analysis
 
 | Complexity | Value                   |
 | ---------- | ----------------------- |
@@ -78,7 +78,7 @@ while ensuring we never exceed the consecutive limit.
 
 ---
 
-# 📊 Example
+#  Example
 
 ### Input
 
