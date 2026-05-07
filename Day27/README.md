@@ -13,7 +13,7 @@ Return `true` if the matrix remains unchanged after the operation, otherwise ret
 
 ---
 
-## 💡 Intuition
+##  Intuition
 
 Instead of actually modifying the matrix, we can **simulate the shifts mathematically** and compare positions.
 
@@ -28,7 +28,7 @@ If **every element maps back to its original position**, the matrix is unchanged
 
 ---
 
-## ⚙️ Approach
+##  Approach
 
 1. Traverse each row `i` and column `j`.
 2. Compute the new index after shifting:
@@ -43,7 +43,7 @@ If **every element maps back to its original position**, the matrix is unchanged
 
 ---
 
-## 🧠 Algorithm
+##  Algorithm
 
 ```
 for each row i:
@@ -61,7 +61,7 @@ return true
 
 ---
 
-## 🧾 Code (C++)
+##  Code (C++)
 
 ```cpp
 class Solution {
@@ -97,7 +97,7 @@ public:
 
 ---
 
-## ⏱️ Complexity Analysis
+##  Complexity Analysis
 
 | Type             | Complexity |
 | ---------------- | ---------- |
@@ -109,7 +109,7 @@ public:
 
 ---
 
-## 📝 Key Observations
+##  Key Observations
 
 * Rotating by `k` is equivalent to rotating by `k % n`
 * No need to physically rotate rows → saves time and space
