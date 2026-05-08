@@ -77,7 +77,7 @@ We iterate through the list only once.
 
 The constructed string has length n.
 
-🧠 Key Insight
+ Key Insight
 
 Since the constructed string differs from:
 
@@ -91,7 +91,7 @@ nums[2] at index 2
 
 it cannot match any string in the array.
 
-🚀 Alternative Approach
+ Alternative Approach
 
 Another approach is:
 
