@@ -103,4 +103,4 @@ limit = 2
 
 
 
-⭐ If you found this helpful, consider giving the repository a **star**!
+ If you found this helpful, consider giving the repository a **star**!
