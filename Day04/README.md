@@ -14,7 +14,7 @@ In other words, the `1` at `(i, j)` must be the **only 1 in its row and its colu
 
 ---
 
-## 📊 Example
+##  Example
 
 ### Example 1
 
@@ -60,7 +60,7 @@ Each row and column contains exactly one `1`, so all three are special positions
 
 ---
 
-## 🔍 Approach
+##  Approach
 
 To determine if a position `(i, j)` is special:
 
@@ -77,7 +77,7 @@ This avoids repeatedly scanning rows and columns.
 
 ---
 
-## ⚙️ Algorithm
+##  Algorithm
 
 1. Initialize two arrays:
 
@@ -92,7 +92,7 @@ This avoids repeatedly scanning rows and columns.
 
 ---
 
-## 🧑‍💻 C++ Implementation
+##  C++ Implementation
 
 ```cpp
 class Solution {
@@ -130,7 +130,7 @@ public:
 
 ---
 
-## ⏱️ Complexity Analysis
+##  Complexity Analysis
 
 **Time Complexity**
 
@@ -150,7 +150,7 @@ For storing row and column counts.
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 * Matrix traversal
 * Counting frequency
