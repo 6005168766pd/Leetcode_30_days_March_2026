@@ -1,6 +1,6 @@
 **Leetcode 1545: Find Kth Bit in Nth Binary String**
 
-**📌 Problem Statement**
+** Problem Statement**
 Given two integers **n** and **k**, return the **kᵗʰ bit** in the **nᵗʰ binary string** (Sₙ).
 The sequence of strings is defined recursively:
 * **S₁ = "0"**
@@ -41,7 +41,7 @@ S4 = "011100110110001"
 ```
 The **11th bit** of `S4` is **1**.
 ---
-## 🔍 Observations
+##  Observations
 Length of the string:
 ```
 |Sₙ| = 2ⁿ - 1
@@ -59,7 +59,7 @@ Where:
 * `left = Sₙ₋₁`
 * `right = reverse(invert(Sₙ₋₁))`
 ---
-## 💡 Key Idea
+##  Key Idea
 If:
 ```
 k == middle
@@ -81,7 +81,7 @@ Mirror position formula:
 ```
 mirror = length - k + 1
 
-****## ⚙️ Algorithm****
+****##  Algorithm****
 1. Calculate `length = 2^n - 1`
 2. Find the middle index `mid = length / 2 + 1`
 3. If `k == mid` → return `'1'`
@@ -92,7 +92,7 @@ mirror = length - k + 1
    * Recursively solve
    * Invert the result
 
-## ⏱️ Complexity Analysis
+##  Complexity Analysis
 
 **Time Complexity**
 O(n)
@@ -101,7 +101,7 @@ Each recursive call reduces `n` by 1.
 O(n)
 
 Due to recursion stack.
-## 🧠 Key Concepts
+
 
 * Recursion
 * Binary string construction
