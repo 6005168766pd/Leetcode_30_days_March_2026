@@ -1,6 +1,6 @@
-# 🚀 Complement of Base 10 Integer
+#  Complement of Base 10 Integer
 
-## 🧩 Problem
+##  Problem
 
 Given a **non-negative integer `n`**, return its **bitwise complement**.
 
@@ -13,7 +13,7 @@ The result should be returned as a **base-10 integer**.
 
 ---
 
-# 📘 Example
+#  Example
 
 ### Example 1
 
@@ -43,7 +43,7 @@ Output
 
 ---
 
-# 🧠 Approach 1 — Bit by Bit Construction
+#  Approach 1 — Bit by Bit Construction
 
 ### Idea
 
@@ -90,7 +90,7 @@ public:
 
 ---
 
-# ⚡ Approach 2 — Bit Masking (Optimal)
+#  Approach 2 — Bit Masking (Optimal)
 
 ### Idea
 
@@ -130,7 +130,7 @@ public:
 
 ---
 
-# ⏱ Complexity Analysis
+#  Complexity Analysis
 
 | Complexity       | Value |
 | ---------------- | ----- |
@@ -139,5 +139,3 @@ public:
 
 ---
 
-
-⭐ If you found this explanation useful, consider **starring the repository**.
