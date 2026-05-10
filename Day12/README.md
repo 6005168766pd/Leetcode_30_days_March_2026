@@ -1,6 +1,6 @@
 # Maximum Stability of a Spanning Tree
 
-## 📖 Problem Summary
+##  Problem Summary
 
 You are given:
 
@@ -37,7 +37,7 @@ If it is impossible to construct such a tree, return **`-1`**.
 
 ---
 
-# 💡 Approach
+#  Approach
 
 The problem asks us to **maximize a value**, which suggests using **Binary Search on the answer**.
 
@@ -47,9 +47,9 @@ To efficiently manage connected components while building the tree, we use the *
 
 ---
 
-# ⚙️ Algorithm
+#  Algorithm
 
-## 1️⃣ Validate Mandatory Edges
+##  Validate Mandatory Edges
 
 Mandatory edges must be included in the spanning tree.
 
@@ -64,7 +64,7 @@ for each mandatory edge:
 
 ---
 
-## 2️⃣ Binary Search on Stability
+##  Binary Search on Stability
 
 We perform binary search on the possible stability value:
 
@@ -77,7 +77,7 @@ For each `mid`, we check whether it is feasible.
 
 ---
 
-## 3️⃣ Feasibility Check
+##  Feasibility Check
 
 During the check:
 
@@ -112,7 +112,7 @@ Ignore it.
 
 ---
 
-## 4️⃣ Use Upgrades
+##  Use Upgrades
 
 Process upgrade candidates and connect components if possible.
 
@@ -124,7 +124,7 @@ if components are different and k > 0:
 
 ---
 
-## 5️⃣ Connectivity Check
+##  Connectivity Check
 
 Finally verify that **all nodes belong to the same component**.
 
@@ -132,7 +132,7 @@ If yes → the candidate stability `mid` is valid.
 
 ---
 
-# 🧠 Data Structure Used
+# Data Structure Used
 
 ## Disjoint Set Union (Union-Find)
 
@@ -154,7 +154,7 @@ Both optimizations make operations nearly constant time.
 
 ---
 
-# ⏱️ Complexity Analysis
+#  Complexity Analysis
 
 Let:
 
@@ -185,7 +185,7 @@ O(E log W)
 
 ---
 
-# 🚀 Key Takeaways
+#  Key Takeaways
 
 * Binary Search can be applied to **maximize or minimize answers**
 * DSU efficiently manages **dynamic graph connectivity**
@@ -194,7 +194,7 @@ O(E log W)
 
 ---
 
-# 🏁 Conclusion
+#  Conclusion
 
 This problem combines multiple algorithmic techniques:
 
