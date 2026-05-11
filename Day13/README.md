@@ -1,6 +1,6 @@
 # LeetCode 3296 — Minimum Number of Seconds to Make Mountain Height Zero
 
-## 🧩 Problem Overview
+##  Problem Overview
 
 You are given:
 
@@ -13,7 +13,7 @@ Your task is to determine the **minimum number of seconds required to reduce the
 
 ---
 
-## 💡 Intuition
+##  Intuition
 
 Each worker reduces the mountain height multiple times with increasing time cost:
 
@@ -37,7 +37,7 @@ To solve this efficiently, we use **Binary Search on Time**.
 
 ---
 
-## 🚀 Approach
+## Approach
 
 ### Step 1: Binary Search on Time
 
@@ -61,7 +61,7 @@ If the total reduction ≥ `mountainHeight`, then time `T` is feasible.
 
 ---
 
-## ⏱ Complexity Analysis
+##  Complexity Analysis
 
 | Complexity       | Value        |
 | ---------------- | ------------ |
@@ -75,7 +75,7 @@ Where:
 
 ---
 
-## 💻 C++ Implementation
+## C++ Implementation
 
 ```cpp
 class Solution {
@@ -123,7 +123,7 @@ public:
 
 ---
 
-## 🔑 Key Concepts
+##  Key Concepts
 
 * Binary Search on Answer
 * Mathematical series (`k*(k+1)/2`)
@@ -132,7 +132,7 @@ public:
 
 ---
 
-## 📌 Example
+##  Example
 
 **Input**
 
@@ -151,6 +151,3 @@ Explanation:
 Workers collaboratively reduce the mountain height in the minimum time possible.
 
 ---
-
-
-⭐ If you found this solution helpful, consider **starring the repository**!
