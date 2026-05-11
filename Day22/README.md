@@ -1,6 +1,6 @@
-# 🔄 Find Rotation
+#  Find Rotation
 
-## 🧩 Problem Statement
+## Problem Statement
 
 Given two **n × n** binary matrices `mat` and `target`, return `true` if `mat` can be rotated in 90-degree clockwise steps to match `target`. Otherwise, return `false`.
 
@@ -8,7 +8,7 @@ You can rotate the matrix **0°, 90°, 180°, or 270°**.
 
 ---
 
-## 📌 Example
+## Example
 
 ```
 Input:
@@ -24,7 +24,7 @@ true
 
 ---
 
-## 💡 Approach
+##  Approach
 
 To rotate a matrix by **90° clockwise**, follow two steps:
 
@@ -35,7 +35,7 @@ To rotate a matrix by **90° clockwise**, follow two steps:
 
 ---
 
-## 🔁 Strategy
+## Strategy
 
 - Perform up to **4 rotations**
 - After each rotation:
@@ -45,7 +45,7 @@ To rotate a matrix by **90° clockwise**, follow two steps:
 
 ---
 
-## ⚙️ Algorithm
+##  Algorithm
 
 ```
 Repeat 4 times:
@@ -56,14 +56,14 @@ Return false
 
 ---
 
-## 🧠 Complexity Analysis
+##  Complexity Analysis
 
 - **Time Complexity:** O(n²)  
 - **Space Complexity:** O(1)
 
 ---
 
-## 🧾 Implementation (C++)
+##  Implementation (C++)
 
 ```cpp
 class Solution {
@@ -99,7 +99,7 @@ public:
 
 ---
 
-## 🚀 Key Takeaways
+##  Key Takeaways
 
 - Matrix rotation can be done **in-place**
 - Transpose + Reverse = **90° rotation**
@@ -108,6 +108,3 @@ public:
 
 ---
 
-## 🏷️ Tags
-
-`Matrix` `Array` `Simulation` `Rotation`
