@@ -6,7 +6,7 @@
 
 ---
 
-## 🧩 Problem Description
+##  Problem Description
 
 You are given three integers:
 
@@ -27,7 +27,7 @@ Return the answer **modulo (10^9 + 7)**.
 
 ---
 
-## 🧠 Approach
+##  Approach
 
 To solve this problem efficiently, we use **Dynamic Programming**.
 
@@ -94,7 +94,7 @@ dp[z][o][1] += dp[z][o-k][0]
 
 ---
 
-## ⏱ Complexity Analysis
+## Complexity Analysis
 
 ### Time Complexity
 
@@ -122,7 +122,7 @@ Approximately **80k states**, which is very memory efficient.
 
 ---
 
-## 💻 C++ Implementation
+## C++ Implementation
 
 ```cpp
 class Solution {
@@ -164,7 +164,7 @@ public:
 
 ---
 
-## 📊 Example
+## Example
 
 ### Input
 
@@ -189,7 +189,7 @@ limit = 1
 
 ---
 
-## ⭐ Key Learning
+##  Key Learning
 
 This problem demonstrates an important **Dynamic Programming pattern**:
 
@@ -203,7 +203,6 @@ Similar patterns appear in problems like:
 
 ---
 
-## 📌 Summary
 
 * Use **Dynamic Programming**
 * Track **zeros used, ones used, and last element**
