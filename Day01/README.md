@@ -13,13 +13,13 @@ we need at least d deci-binary numbers contributing 1 at that position.
 **Therefore:**
 The answer is simply the maximum digit in the string.
 
-📊 Example
+ Example
 Input:
 n = "32"
 Maximum digit = 3
 So the answer is:3
 
-🔎 Step-by-Step Conversion of 32 to 0
+ Step-by-Step Conversion of 32 to 0
 Let’s actually construct the deci-binary numbers.
 We need 3 deci-binary numbers (because max digit = 3).
 Step 1:
