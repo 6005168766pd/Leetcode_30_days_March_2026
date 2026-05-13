@@ -1,10 +1,10 @@
-# 🔍 LeetCode 2839 - Check if Strings Can be Made Equal With Operations I
+#  LeetCode 2839 - Check if Strings Can be Made Equal With Operations I
 
-## 🧩 Problem Statement
+##  Problem Statement
 
 Given two strings `s1` and `s2`, both of length 4, determine if they can be made equal using the following operation any number of times:
 
-### 🔁 Allowed Operation:
+###  Allowed Operation:
 
 * Swap characters at indices `i` and `j` such that:
 
