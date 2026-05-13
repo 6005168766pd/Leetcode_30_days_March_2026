@@ -1,5 +1,5 @@
-🧩 LeetCode 2840 - Check if Strings Can be Made Equal With Operations II
-📌 Problem Statement
+ LeetCode 2840 - Check if Strings Can be Made Equal With Operations II
+ Problem Statement
 
 You are given two strings s1 and s2 of equal length.
 
@@ -10,9 +10,9 @@ i < j
 (j - i) % 2 == 0
 Swap the characters at positions i and j.
 
-👉 Return true if you can make s1 equal to s2 after any number of operations, otherwise return false.
+ Return true if you can make s1 equal to s2 after any number of operations, otherwise return false.
 
-💡 Key Insight
+ Key Insight
 
 The operation allows swapping characters only between indices having the same parity:
 
