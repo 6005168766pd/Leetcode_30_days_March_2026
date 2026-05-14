@@ -11,29 +11,29 @@ Given two strings `s1` and `s2`, both of length 4, determine if they can be made
   * `i < j`
   * `(j - i) % 2 == 0`
 
-👉 This means:
+ This means:
 
 * Even indices (`0, 2`) can swap among themselves
 * Odd indices (`1, 3`) can swap among themselves
 
 ---
 
-## 💡 Core Insight
+##  Core Insight
 
 Since swapping is only allowed within:
 
 * Even positions
 * Odd positions
 
-👉 We can treat **even and odd indices independently**
+ We can treat **even and odd indices independently**
 
 ---
 
-# 🚀 Approaches
+#  Approaches
 
 ---
 
-## 🧠 Approach 1: Direct Comparison (Tricky O(1))
+##  Approach 1: Direct Comparison (Tricky O(1))
 
 ### Idea:
 
@@ -59,19 +59,19 @@ public:
 };
 ```
 
-### ✅ Complexity
+###  Complexity
 
 * Time: `O(1)`
 * Space: `O(1)`
 
-### ⚠️ Note
+###  Note
 
 * Works only because string length is fixed (4)
 * Not scalable
 
 ---
 
-## 🔄 Approach 2: Sorting Even & Odd Positions
+##  Approach 2: Sorting Even & Odd Positions
 
 ### Idea:
 
