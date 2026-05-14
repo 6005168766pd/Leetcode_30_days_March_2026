@@ -19,11 +19,11 @@ The operation allows swapping characters only between indices having the same pa
 Even indices can swap among themselves.
 Odd indices can swap among themselves.
 
-👉 So, characters at:
+ So, characters at:
 
 Even positions form one independent group.
 Odd positions form another independent group.
-🧠 Approach
+ Approach
 Separate characters of both strings into:
 Even-indexed characters
 Odd-indexed characters
@@ -47,7 +47,7 @@ If both match → return true, else false.
    - s1_even == s2_even AND s1_odd == s2_odd
 
 5. Return result
-💻 C++ Implementation
+ C++ Implementation
 class Solution {
 public:
     bool checkStrings(string s1, string s2) {
@@ -72,11 +72,11 @@ public:
         return s1_even == s2_even && s1_odd == s2_odd;
     }
 };
-⏱️ Complexity Analysis
+ Complexity Analysis
 Type	Complexity
 Time Complexity	O(n log n)
 Space Complexity	O(n)
-🔍 Example
+ Example
 Input
 s1 = "abcdba"
 s2 = "cabdab"
