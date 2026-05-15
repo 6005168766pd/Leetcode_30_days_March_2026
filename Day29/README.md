@@ -112,19 +112,19 @@ public:
 };
 ```
 
-### ✅ Complexity
+###  Complexity
 
 * Time: `O(1)` (since length = 4)
 * Space: `O(1)`
 
-### 👍 Pros
+###  Pros
 
 * Cleaner and more intuitive
 * Easily extendable
 
 ---
 
-## ⚡ Approach 3: Frequency Count (Optimal & Scalable)
+##  Approach 3: Frequency Count (Optimal & Scalable)
 
 ### Idea:
 
@@ -164,19 +164,19 @@ public:
 };
 ```
 
-### ✅ Complexity
+###  Complexity
 
 * Time: `O(n)` → generalizable
 * Space: `O(1)` (26 letters)
 
-### 🚀 Best Choice
+###  Best Choice
 
 * Most scalable
 * Preferred in interviews
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Input:
 
@@ -204,7 +204,7 @@ false
 
 ---
 
-## 🎯 Summary
+##  Summary
 
 | Approach          | Time | Space | Notes                   |
 | ----------------- | ---- | ----- | ----------------------- |
@@ -214,7 +214,7 @@ false
 
 ---
 
-## 🏷️ Tags
+##  Tags
 
 * Strings
 * Greedy
