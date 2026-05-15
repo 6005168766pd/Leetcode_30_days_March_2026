@@ -106,7 +106,7 @@ If no such `j` exists:
 
 ---
 
-## 🧮 Complexity Analysis
+## Complexity Analysis
 
 | Operation        | Complexity |
 | ---------------- | ---------- |
@@ -116,7 +116,7 @@ If no such `j` exists:
 
 ---
 
-## 💡 Example
+##  Example
 
 ### Input:
 
@@ -136,7 +136,7 @@ lcp = [
 
 ---
 
-## 🚨 Edge Cases
+##  Edge Cases
 
 * All zeros except diagonal → all characters must be different
 * Conflicting constraints → return `""`
@@ -144,7 +144,7 @@ lcp = [
 
 ---
 
-## 🧑‍💻 Implementation (C++)
+##  Implementation (C++)
 
 ```cpp
 class Solution {
@@ -211,7 +211,7 @@ public:
 
 ---
 
-## 🚀 Key Takeaways
+##  Key Takeaways
 
 * Convert LCP constraints into:
 
@@ -222,7 +222,7 @@ public:
 
 ---
 
-## 📚 Tags
+## Tags
 
 * Greedy
 * Strings
