@@ -1,6 +1,6 @@
-# 🔢 Product Matrix
+#  Product Matrix
 
-## 🧩 Problem Statement
+## Problem Statement
 
 Given a 2D matrix `grid` of size `n x m`, construct a new matrix `p` such that:
 
@@ -10,7 +10,7 @@ p[i][j] = product of all elements in grid except grid[i][j] (mod 12345)
 
 ---
 
-## 📌 Example
+## Example
 
 ```
 Input:
@@ -24,7 +24,7 @@ Output:
 
 ---
 
-## 💡 Approach
+## Approach
 
 We cannot directly compute the product for each cell by iterating over the entire matrix every time (that would be **O(n² * m²)** ❌).
 
@@ -32,16 +32,16 @@ Instead, we optimize using **Prefix Product + Suffix Product**.
 
 ---
 
-### 🔥 Key Idea
+### Key Idea
 
 - Traverse the matrix in **reverse order** → store suffix product  
 - Traverse the matrix in **forward order** → combine with prefix product  
 
-👉 This avoids division and works efficiently with modulo.
+ This avoids division and works efficiently with modulo.
 
 ---
 
-## ⚙️ Algorithm
+## Algorithm
 
 ### Step 1: Initialize
 - Create result matrix `p`
@@ -76,7 +76,7 @@ prefix = (prefix * grid[i][j]) % MOD
 
 ---
 
-## 🧠 Complexity Analysis
+## Complexity Analysis
 
 | Type | Complexity |
 |------|----------|
@@ -85,7 +85,7 @@ prefix = (prefix * grid[i][j]) % MOD
 
 ---
 
-## 🧾 Code (C++)
+## Code (C++)
 
 ```cpp
 class Solution {
@@ -124,7 +124,7 @@ public:
 
 ---
 
-## 🔥 Key Insights
+## Key Insights
 
 - Avoid division → use prefix & suffix products  
 - Flatten matrix traversal logically without extra space  
@@ -132,7 +132,7 @@ public:
 
 ---
 
-## 🏷️ Tags
+## Tags
 
 `Matrix` `Prefix Sum` `Simulation` `Math`
 
