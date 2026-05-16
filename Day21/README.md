@@ -1,6 +1,6 @@
-# 🚀 Flip Square Submatrix Vertically (LeetCode 3643)
+# Flip Square Submatrix Vertically (LeetCode 3643)
 
-## 📌 Problem Summary
+## Problem Summary
 
 Given a 2D matrix `grid`, and three integers `x`, `y`, and `k`, reverse a **k × k submatrix** starting from position `(x, y)`.
 
@@ -13,9 +13,9 @@ The reversal is performed **vertically**, meaning:
 
 ---
 
-## 🧠 Approach
+## Approach
 
-### 💡 Key Idea
+### Key Idea
 
 Instead of creating a new matrix, we perform the operation **in-place**.
 
