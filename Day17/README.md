@@ -1,6 +1,6 @@
-# 🧠 Largest Submatrix With Rearrangements
+#  Largest Submatrix With Rearrangements
 
-## 📌 Problem Statement
+## Problem Statement
 
 Given a binary matrix `matrix`, you are allowed to rearrange the columns of each row independently.
 
@@ -8,7 +8,7 @@ Return the **largest area of a submatrix consisting only of 1s** after performin
 
 ---
 
-## 🧩 Example
+## Example
 
 **Input**
 
@@ -28,7 +28,7 @@ matrix = [
 
 ---
 
-## 💡 Intuition
+## Intuition
 
 Instead of directly finding rectangles:
 
@@ -39,11 +39,11 @@ Instead of directly finding rectangles:
   * Sort each row in descending order
   * Try forming the largest rectangle
 
-👉 Sorting helps because we can rearrange columns freely to maximize width.
+ Sorting helps because we can rearrange columns freely to maximize width.
 
 ---
 
-## 🪜 Algorithm
+## Algorithm
 
 1. Traverse the matrix and build heights:
 
@@ -64,7 +64,7 @@ Instead of directly finding rectangles:
 
 ---
 
-## 📊 Dry Run
+## Dry Run
 
 **Heights Matrix**
 
