@@ -1,6 +1,6 @@
-# 📊 Minimum Absolute Difference in K×K Subgrid
+#  Minimum Absolute Difference in K×K Subgrid
 
-## 🧩 Problem Statement
+## Problem Statement
 
 Given a 2D integer matrix `grid` of size `m x n` and an integer `k`, compute a result matrix such that:
 
@@ -8,7 +8,7 @@ Given a 2D integer matrix `grid` of size `m x n` and an integer `k`, compute a r
 
 ---
 
-## ✨ Example
+## Example
 
 ### Input
 
@@ -32,7 +32,7 @@ k = 2
 
 ---
 
-## 🚀 Approach
+## Approach
 
 For every possible `k x k` subgrid:
 
@@ -46,7 +46,7 @@ For every possible `k x k` subgrid:
 
 ---
 
-## ⚠️ Edge Case
+##  Edge Case
 
 * If a subgrid contains **only one unique element**, then:
 
@@ -55,7 +55,7 @@ For every possible `k x k` subgrid:
 
 ---
 
-## 💻 Implementation (C++)
+## Implementation (C++)
 
 ```cpp
 class Solution {
@@ -101,7 +101,7 @@ public:
 
 ---
 
-## ⏱️ Time Complexity
+## Time Complexity
 
 * Number of subgrids: `(m - k + 1) × (n - k + 1)`
 * Each subgrid:
@@ -117,13 +117,13 @@ O((m - k + 1)(n - k + 1) × k² log(k²))
 
 ---
 
-## 🧠 Space Complexity
+## Space Complexity
 
 * `O(k²)` for storing elements of each subgrid
 
 ---
 
-## 🔥 Optimization Ideas
+## Optimization Ideas
 
 For large constraints, this approach may be slow. Possible improvements:
 
@@ -133,7 +133,7 @@ For large constraints, this approach may be slow. Possible improvements:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Language: C++
 * Data Structures:
@@ -143,7 +143,7 @@ For large constraints, this approach may be slow. Possible improvements:
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 * Sorted structures simplify minimum difference problems
 * Always handle edge cases (like single unique value)
