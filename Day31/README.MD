@@ -36,7 +36,7 @@ We build the result string step by step:
 
 ---
 
-## ⚙️ Approach
+##  Approach
 
 - Use a helper function `isSame()` to check substring equality
 - Maintain a `canChange[]` array to track flexible positions
@@ -44,7 +44,7 @@ We build the result string step by step:
 
 ---
 
-## 💻 Code
+## Code
 
 ```cpp
 class Solution {
