@@ -150,7 +150,3 @@ For large constraints, this approach may be slow. Possible improvements:
 * Balance between simplicity and performance
 
 ---
-
-## 🙌 Contribution
-
-Feel free to fork this repository and improve the solution 🚀
