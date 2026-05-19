@@ -45,7 +45,7 @@ We maintain the **top three distinct sums** using a `set`.
 
 ---
 
-# 🚀 Approach
+#  Approach
 
 ### Step 1
 
@@ -73,7 +73,7 @@ Keep only the **largest three values**.
 
 ---
 
-# ⏱ Complexity Analysis
+# Complexity Analysis
 
 | Complexity       | Value                 |
 | ---------------- | --------------------- |
