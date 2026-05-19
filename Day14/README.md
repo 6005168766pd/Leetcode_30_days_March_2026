@@ -1,6 +1,6 @@
 # LeetCode 1415 — The k-th Lexicographical Happy String of Length n
 
-## 🧩 Problem
+## Problem
 
 A **happy string** is a string that:
 
@@ -17,7 +17,7 @@ If there are fewer than `k` happy strings, return an **empty string**.
 
 ---
 
-# 💡 Intuition
+# Intuition
 
 We must generate strings using the characters:
 
@@ -39,7 +39,7 @@ To optimize, we **stop recursion early** once the k-th string is found.
 
 ---
 
-# 🚀 Approach
+# Approach
 
 1. Start with an empty string.
 2. Try adding characters `'a'`, `'b'`, `'c'`.
@@ -50,7 +50,7 @@ To optimize, we **stop recursion early** once the k-th string is found.
 
 ---
 
-# ⏱ Complexity Analysis
+# Complexity Analysis
 
 | Complexity       | Value    |
 | ---------------- | -------- |
@@ -63,7 +63,7 @@ Explanation:
 
 ---
 
-# 💻 C++ Implementation
+# C++ Implementation
 
 ```cpp
 class Solution {
@@ -105,7 +105,7 @@ public:
 
 ---
 
-# 📌 Example
+# Example
 
 ### Input
 
@@ -143,7 +143,7 @@ The **9th string** is `"cab"`.
 
 ---
 
-# 🔑 Key Concepts
+# Key Concepts
 
 * Backtracking
 * Depth First Search (DFS)
@@ -152,7 +152,7 @@ The **9th string** is `"cab"`.
 
 ---
 
-# 🏷 Tags
+# Tags
 
 `Backtracking`
 `Recursion`
