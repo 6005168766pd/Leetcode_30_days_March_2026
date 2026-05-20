@@ -160,5 +160,3 @@ The **9th string** is `"cab"`.
 `Medium`
 
 ---
-
-⭐ If you found this solution helpful, consider **starring the repository**.
