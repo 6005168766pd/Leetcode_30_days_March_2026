@@ -163,7 +163,7 @@ The algorithm finds all possible rhombus border sums and returns the **top three
 
 ---
 
-# 🔑 Key Concepts
+#  Key Concepts
 
 * Matrix traversal
 * Geometry in grid problems
@@ -172,7 +172,7 @@ The algorithm finds all possible rhombus border sums and returns the **top three
 
 ---
 
-# 🏷 Tags
+#  Tags
 
 * Matrix
 * Enumeration
