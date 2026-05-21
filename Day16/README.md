@@ -87,7 +87,7 @@ Explanation:
 
 ---
 
-# 💻 C++ Implementation
+#  C++ Implementation
 
 ```cpp id="r6p2o7"
 class Solution {
@@ -138,7 +138,7 @@ public:
 
 ---
 
-# 📌 Example
+#  Example
 
 ### Input
 
