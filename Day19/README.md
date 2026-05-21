@@ -111,7 +111,7 @@ public:
 
 ---
 
-## ⏱️ Complexity Analysis
+##  Complexity Analysis
 
 | Type  | Complexity |
 | ----- | ---------- |
@@ -120,7 +120,7 @@ public:
 
 ---
 
-## ⚠️ Important Note
+##  Important Note
 
 This solution counts only **submatrices starting from (0,0)**.
 
