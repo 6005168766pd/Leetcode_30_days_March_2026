@@ -1,5 +1,5 @@
- Equal Sum Grid Partition I : Leetcode 3546
- Problem Statement
+** Equal Sum Grid Partition I : Leetcode 3546
+ Problem Statement**
 
 Given a 2D integer grid, determine whether it is possible to partition the grid into two parts such that the sum of elements in both parts is equal.
 
@@ -10,7 +10,7 @@ Vertically (between two columns)
 
 Return true if such a partition exists, otherwise return false.
 
-🧠 Intuition
+** Intuition**
 
 The key idea is simple:
 
@@ -22,7 +22,7 @@ Column-wise → left part = right part
 
 Instead of recomputing sums repeatedly, we precompute row and column sums for efficiency.
 
-⚙️ Approach
+ **Approach**
 Step 1: Precompute Sums
 rowSum[i] → sum of all elements in row i
 colSum[j] → sum of all elements in column j
@@ -44,7 +44,7 @@ Same idea using colSum
 Stop before last column (n-1)
 Step 5: Return Result
 If no partition found → return false
-💻 Code (C++)
+** Code (C++)**
 class Solution {
 public:
     bool canPartitionGrid(vector<vector<int>>& grid) {
@@ -85,18 +85,18 @@ public:
         return false;
     }
 };
-⏱️ Complexity Analysis
-Time Complexity:
+**Complexity Analysis**
+**Time Complexity:**
 O(m × n)
 (single pass to compute sums + linear scans)
-Space Complexity:
+**Space Complexity:**
 O(m + n)
 (for row and column sum arrays)
-🔥 Key Insights
+ **Key Insights**
 Precomputing row & column sums avoids redundant calculations.
 Always check odd total sum early to save time.
 Partition must leave at least one row/column on both sides, hence m-1 and n-1.
-✅ Example
+**Example**
 
 Input:
 
