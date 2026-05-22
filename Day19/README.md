@@ -124,7 +124,7 @@ public:
 
 This solution counts only **submatrices starting from (0,0)**.
 
-👉 If the problem requires counting **all possible submatrices**, then a more advanced approach is needed:
+ If the problem requires counting **all possible submatrices**, then a more advanced approach is needed:
 
 * Fix rows
 * Convert to 1D array
@@ -132,7 +132,7 @@ This solution counts only **submatrices starting from (0,0)**.
 
 ---
 
-## 🚀 Key Takeaways
+## Key Takeaways
 
 * 2D Prefix Sum is powerful for submatrix problems
 * Always remember:
@@ -143,7 +143,7 @@ This solution counts only **submatrices starting from (0,0)**.
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This approach efficiently reduces redundant computation and allows us to count valid submatrices in linear time relative to grid size.
 
