@@ -8,7 +8,7 @@ Given a `m x n` grid filled with integers, find the **maximum non-negative produ
 - Right ➡️
 - Down ⬇️
 
-### ⚠️ Notes:
+### Notes:
 - Return the result modulo **1e9 + 7**
 - If the maximum product is negative, return **-1**
 
