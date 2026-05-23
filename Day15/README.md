@@ -21,7 +21,7 @@ All results must be returned **modulo (10^9 + 7)**.
 
 ---
 
-# 💡 Intuition
+# Intuition
 
 Applying `addAll` or `multAll` to every element directly would take **O(n)** time per operation, which is too slow.
 
