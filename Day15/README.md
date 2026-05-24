@@ -44,7 +44,7 @@ This allows us to update the entire sequence in **constant time**.
 
 ---
 
-# 🚀 Approach
+#  Approach
 
 ### Append Operation
 
