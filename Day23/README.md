@@ -14,7 +14,7 @@ Given a `m x n` grid filled with integers, find the **maximum non-negative produ
 
 ---
 
-## 💡 Key Insight
+##  Key Insight
 
 Since the grid can contain **negative numbers**, the product can flip signs.
 
