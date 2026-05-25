@@ -89,7 +89,7 @@ value = stored_value * mul + add
 
 ---
 
-# ⏱ Complexity Analysis
+# Complexity Analysis
 
 | Operation | Time Complexity |
 | --------- | --------------- |
