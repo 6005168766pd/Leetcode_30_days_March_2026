@@ -18,7 +18,7 @@ Given a `m x n` grid filled with integers, find the **maximum non-negative produ
 
 Since the grid can contain **negative numbers**, the product can flip signs.
 
-👉 Therefore, we must track:
+ Therefore, we must track:
 - **Maximum product so far**
 - **Minimum product so far**
 
