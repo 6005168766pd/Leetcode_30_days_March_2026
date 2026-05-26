@@ -89,7 +89,7 @@ else → return result % mod
 
 ---
 
-## 🚀 C++ Implementation
+##  C++ Implementation
 
 ```cpp
 class Solution {
