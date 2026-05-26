@@ -102,7 +102,7 @@ Space Complexity: **O(n)**
 
 ---
 
-# 💻 C++ Implementation
+# C++ Implementation
 
 ```cpp
 class Fancy {
