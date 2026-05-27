@@ -28,7 +28,7 @@ Because:
 
 ---
 
-## 🧠 Approach
+## Approach
 
 ### 🔹 Step 1: DP Initialization
 
