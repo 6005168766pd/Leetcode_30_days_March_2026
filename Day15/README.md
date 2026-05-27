@@ -147,7 +147,7 @@ public:
 
 ---
 
-# 📌 Example
+# Example
 
 ```
 Fancy fancy = new Fancy();
