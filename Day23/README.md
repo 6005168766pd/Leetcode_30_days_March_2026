@@ -144,7 +144,7 @@ public:
         return result % mod;
     }
 };
-⏱️ Complexity Analysis
+ Complexity Analysis
 Type	Complexity
 Time	O(m × n)
 Space	O(m × n)
