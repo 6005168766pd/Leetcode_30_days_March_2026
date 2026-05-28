@@ -162,7 +162,7 @@ fancy.getIndex(0) → 10
 
 ---
 
-# 🔑 Key Concepts
+#  Key Concepts
 
 * Lazy transformation technique
 * Modular arithmetic
