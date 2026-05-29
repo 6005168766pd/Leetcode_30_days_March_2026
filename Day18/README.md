@@ -3,7 +3,7 @@
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 You are given a **0-indexed 2D integer matrix `grid`** and an integer `k`.
 
