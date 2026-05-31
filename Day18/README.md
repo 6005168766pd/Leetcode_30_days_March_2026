@@ -9,7 +9,7 @@ You are given a **0-indexed 2D integer matrix `grid`** and an integer `k`.
 
 A submatrix is defined by its **top-left corner at (0,0)** and some bottom-right corner `(i, j)`.
 
-👉 Your task is to **count the number of submatrices** such that the **sum of elements in the submatrix is less than or equal to `k`**.
+ Your task is to **count the number of submatrices** such that the **sum of elements in the submatrix is less than or equal to `k`**.
 
 ---
 
