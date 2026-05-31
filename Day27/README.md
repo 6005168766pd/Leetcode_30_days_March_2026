@@ -117,7 +117,7 @@ public:
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Input
 
