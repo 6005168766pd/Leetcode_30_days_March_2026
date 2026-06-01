@@ -88,7 +88,7 @@ Instead of directly finding rectangles:
 
 ---
 
-## 💻 C++ Implementation
+## C++ Implementation
 
 ```cpp
 class Solution {
