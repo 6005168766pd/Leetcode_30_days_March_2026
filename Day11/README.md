@@ -6,8 +6,8 @@ Given a **non-negative integer `n`**, return its **bitwise complement**.
 
 The complement of a binary number is obtained by **flipping every bit**:
 
-* `0 → 1`
-* `1 → 0`
+* `0 →  1`
+* `1 →  0`
 
 The result should be returned as a **base-10 integer**.
 
