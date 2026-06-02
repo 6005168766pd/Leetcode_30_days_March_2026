@@ -128,7 +128,7 @@ public:
 
 ---
 
-## ⏱️ Complexity Analysis
+## Complexity Analysis
 
 * **Time Complexity:** `O(m × n log n)`
 * **Space Complexity:** `O(1)` (in-place modification)
