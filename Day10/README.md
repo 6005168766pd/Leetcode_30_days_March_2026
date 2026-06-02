@@ -32,7 +32,7 @@ But with the restriction that **no more than `limit` identical numbers appear co
 A brute-force approach of generating all permutations is impossible because:
 
 ```
-(zero + one)! possibilities
+(zero + one)! possibilties
 ```
 
 Instead, we use **Dynamic Programming (DP)** to build arrays step-by-step.
