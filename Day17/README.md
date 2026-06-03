@@ -135,7 +135,7 @@ public:
 
 ---
 
-## 🧠 Key Takeaways
+##  Key Takeaways
 
 * Convert matrix → histogram problem
 * Sorting simulates column rearrangement
