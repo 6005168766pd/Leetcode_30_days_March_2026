@@ -26,7 +26,7 @@ We use a **two-pointer technique on rows**:
 
 ---
 
-## ⚙️ Algorithm
+##  Algorithm
 
 1. Initialize:
    - `startRow = x`
