@@ -55,7 +55,7 @@ lcp[i][j] = 0
 
 For each index `i`:
 
-#### ✅ Case 1: Match with previous index
+####  Case 1: Match with previous index
 
 * If there exists `j < i` such that:
 
