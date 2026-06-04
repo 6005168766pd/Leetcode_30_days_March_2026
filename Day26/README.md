@@ -4,7 +4,7 @@
 
 Given a 2D grid of integers, the task is to determine whether it is possible to partition the grid into two parts (using a horizontal or vertical cut) such that:
 
-* The sum of both parts is equal
+* The sum of both parts is equal.
   **OR**
 * The sums can be made equal by removing **at most one element** from either part
 
