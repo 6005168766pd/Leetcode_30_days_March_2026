@@ -150,7 +150,7 @@ For storing row and column counts.
 
 ---
 
-##  Key Concepts
+## Key Concepts
 
 * Matrix traversal
 * Counting frequency
