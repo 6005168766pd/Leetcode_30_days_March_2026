@@ -3,7 +3,6 @@
 ##  Problem Overview
 
 You are given:
-
 * An integer `mountainHeight`
 * An array `workerTimes` where `workerTimes[i]` represents the time taken by the `i-th` worker to reduce the mountain height.
 
