@@ -99,7 +99,7 @@ public:
 
 ---
 
-##  Key Takeaways
+## Key Takeaways
 
 - Matrix rotation can be done **in-place**
 - Transpose + Reverse = **90° rotation**
