@@ -1,4 +1,4 @@
-1980. Find Unique Binary String
+1980.. Find Unique Binary String
  Problem Statement
 
 Given an array of n unique binary strings nums, where each string has length n, return a binary string of length n that does not appear in nums. If multiple answers exist, return any of them.
