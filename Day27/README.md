@@ -149,5 +149,3 @@ false
 * Efficient and clean solution with O(m × n) time
 
 ---
-
-⭐ If you found this helpful, consider starring your repo!
