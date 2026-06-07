@@ -222,5 +222,3 @@ false
 * Sorting
 
 ---
-
-💬 *Pro Tip: Whenever swaps are restricted within groups, think in terms of independent buckets (like even/odd indices).*
