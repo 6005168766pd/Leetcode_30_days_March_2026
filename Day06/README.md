@@ -95,7 +95,7 @@ If the string ever transitions from:
 
 then a second segment of ones exists, which violates the condition.
 
-⭐ Summary
+Summary
 Concept	Explanation
 Single pass traversal	Check transitions
 Detect pattern	101 pattern indicates two segments
