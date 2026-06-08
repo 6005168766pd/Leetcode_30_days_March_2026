@@ -2,7 +2,7 @@
 
 ##  Problem Statement
 
-Given a 2D grid consisting of characters `'X'` and `'Y'`, your task is to count the number of submatrices where the number of `'X'` and `'Y'` are equal.
+Given a  2D grid consisting of characters `'X'` and `'Y'`, your task is to count the number of submatrices where the number of `'X'` and `'Y'` are equal.
 
 ---
 
