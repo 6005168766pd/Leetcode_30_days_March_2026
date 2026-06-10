@@ -46,7 +46,7 @@ We use a **two-pointer technique on rows**:
 
 ---
 
-## 🧾 Implementation (C++)
+##  Implementation (C++)
 
 ```cpp
 class Solution {
