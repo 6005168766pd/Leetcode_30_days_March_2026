@@ -138,6 +138,6 @@ public:
 
 ---
 
-## 🚀 Takeaway
+## Takeaway
 
 > Prefix + Suffix technique is a powerful pattern for “product except self” problems in both arrays and matrices.
