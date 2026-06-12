@@ -70,7 +70,7 @@ For each index `i`:
 
 ---
 
-#### 🚫 Case 2: Assign new character
+#### Case 2: Assign new character
 
 If no such `j` exists:
 
