@@ -13,7 +13,7 @@ A submatrix is defined by its **top-left corner at (0,0)** and some bottom-right
 
 ---
 
-## 💡 Approach: Prefix Sum (2D)
+## Approach: Prefix Sum (2D)
 
 To efficiently compute submatrix sums, we use a **2D prefix sum technique**.
 
