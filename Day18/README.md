@@ -17,7 +17,7 @@ A submatrix is defined by its **top-left corner at (0,0)** and some bottom-right
 
 To efficiently compute submatrix sums, we use a **2D prefix sum technique**.
 
-### 🔹 Key Idea
+### Key Idea
 
 * Convert the matrix into a prefix sum matrix where:
 
