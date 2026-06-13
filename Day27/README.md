@@ -142,7 +142,7 @@ false
 
 ---
 
-## 🎯 Summary
+## Summary
 
 * Use modular arithmetic to simulate cyclic shifts
 * Compare positions directly instead of modifying the matrix
