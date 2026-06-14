@@ -138,7 +138,7 @@ If yes → the candidate stability `mid` is valid.
 
 The DSU structure supports:
 
-### `find(x)`
+## `find(x)`
 
 Finds the representative of the component containing `x`.
 
