@@ -109,9 +109,3 @@ k = 18
 
 ---
 
-## 🏷️ Tags
-
-`Array` `Matrix` `Prefix Sum` `Greedy`
-
----
-
