@@ -101,7 +101,7 @@ k = 18
 
 ---
 
-## 🚀 Key Takeaways
+## Key Takeaways
 
 * Use **2D prefix sum** to optimize submatrix sum queries.
 * Since all submatrices start at `(0,0)`, we only need prefix sums.
