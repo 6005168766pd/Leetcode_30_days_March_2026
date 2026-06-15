@@ -47,7 +47,7 @@ To efficiently manage connected components while building the tree, we use the *
 
 ---
 
-#  Algorithm
+##  Algorithm
 
 ##  Validate Mandatory Edges
 
