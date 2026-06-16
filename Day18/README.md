@@ -83,7 +83,7 @@ public:
 
 ---
 
-## 🔍 Example
+## Example
 
 ### Input:
 
