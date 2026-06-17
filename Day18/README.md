@@ -32,7 +32,7 @@ To efficiently compute submatrix sums, we use a **2D prefix sum technique**.
 
 ---
 
-## ⚙️ Algorithm
+##  Algorithm
 
 1. Traverse the matrix row by row.
 2. Update each cell as:
