@@ -48,7 +48,7 @@ To efficiently compute submatrix sums, we use a **2D prefix sum technique**.
 
 ---
 
-## 💻 Code (C++)
+## Code (C++)
 
 ```cpp
 class Solution {
