@@ -21,7 +21,7 @@ grid = [
 k = 2
 ```
 
-### Output
+## Output
 
 ```
 [
