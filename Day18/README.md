@@ -76,7 +76,7 @@ public:
 
 ---
 
-## ⏱️ Complexity Analysis
+## Complexity Analysis
 
 * **Time Complexity:** `O(m × n)`
 * **Space Complexity:** `O(1)` (in-place prefix sum)
