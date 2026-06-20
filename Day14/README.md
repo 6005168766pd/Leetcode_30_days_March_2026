@@ -1,4 +1,4 @@
-# LeetCode 1415 — The k-th Lexicographical Happy String of Length n
+## LeetCode 1415 — The k-th Lexicographical Happy String of Length n
 
 ## Problem
 
