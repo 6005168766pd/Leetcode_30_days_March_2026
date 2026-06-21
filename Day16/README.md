@@ -1,4 +1,4 @@
-# LeetCode 1878 — Get Biggest Three Rhombus Sums in a Grid
+## LeetCode 1878 — Get Biggest Three Rhombus Sums in a Grid
 
 ##  Problem Overview
 
