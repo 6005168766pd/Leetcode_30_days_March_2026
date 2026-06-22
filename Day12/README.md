@@ -1,4 +1,4 @@
-# Maximum Stability of a Spanning Tree
+## Maximum Stability of a Spanning Tree
 
 ##  Problem Summary
 
