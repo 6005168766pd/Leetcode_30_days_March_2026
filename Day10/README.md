@@ -1,4 +1,4 @@
-#  Find All Possible Stable Binary Arrays II
+##  Find All Possible Stable Binary Arrays II
 
 ##  Problem
 
