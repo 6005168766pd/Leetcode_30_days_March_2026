@@ -1,4 +1,4 @@
-## Find All Stable Binary Arrays I
+# Find All Stable Binary Arrays I
 
 **LeetCode Problem:** 3129
 **Difficulty:** Medium
